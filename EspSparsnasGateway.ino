@@ -5,12 +5,13 @@
   */
  
  /*
- * Based on code from user Sommarlov @ EF: http://elektronikforumet.com/forum/viewtopic.php?f=2&t=85006&start=255#p1357610
+ * Based on code from Patrik Hermansson https://github.com/bphermansson/EspSparsnasGateway
+ * Which is based on code from user Sommarlov @ EF: http://elektronikforumet.com/forum/viewtopic.php?f=2&t=85006&start=255#p1357610
  * Which in turn is based on Strigeus work: https://github.com/strigeus/sparsnas_decoder
  * 
  */
 
- // Settings for the Mqtt broker:
+// Settings for the Mqtt broker:
 
 // Set this to the value of your energy meter
 //#define PULSES_PER_KWH 1000 // <- samma här, står på elmätaren
